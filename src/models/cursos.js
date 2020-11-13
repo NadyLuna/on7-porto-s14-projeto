@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const mongoose = require("mongoose")
 
 const cursosSchema = new mongoose.Schema({
@@ -20,6 +21,8 @@ const cursos = new mongoose.model("cursos", cursosSchema)
 
 module.exports = cursos
 =======
+=======
+>>>>>>> 6b4908b4f1a53a406bdc25af10593544af0571ed
 const mongoose = require("mongoose");
 
 const cursosSchema = new mongoose.Schema({
@@ -43,5 +46,9 @@ const cursosSchema = new mongoose.Schema({
 
 const cursos = mongoose.model ('cursos', cursosSchema)
 
+<<<<<<< HEAD
 module.exports = cursos;
 >>>>>>> 6b4908b (Resolução de atividades)
+=======
+module.exports = cursos;
+>>>>>>> 6b4908b4f1a53a406bdc25af10593544af0571ed

@@ -95,7 +95,6 @@ const postCurso = (req, res) => {
     });
 };
 
-
 const deleteCurso = (req, res) => {
     const id = req.params.id;
     cursos.find({ id }, (err, curso) => {

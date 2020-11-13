@@ -1,17 +1,14 @@
 const express = require("express")
-const bodyParser = require("body-parser")
+//const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 
 const app = express()
 
-
-//String de conexão
-mongoose.connect("mongodb://localhost:27017/cursos", { 
+mongoose.connect("mongodb+srv://nadyLuna:nlrb1107@cluster0.thgjc.mongodb.net/cursos?retryWrites=true&w=majority", { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 });
-
-//Conexão com o mongo
+//conexão com o mongo
 let db = mongoose.connection;
 
 // Captura de erro ou sucesso na conexão
